@@ -1,12 +1,12 @@
-class Person {
+class person {
   String? sId;
   String? firstName;
   String? lastName;
   String? email;
 
-  Person({this.sId, this.firstName, this.lastName, this.email});
+  person({this.sId, this.firstName, this.lastName, this.email});
 
-  Person.fromJson(Map<String, dynamic> json) {
+  person.fromJson(Map<String, dynamic> json) {
     sId = json['_id'];
     firstName = json['first_name'];
     lastName = json['last_name'];
